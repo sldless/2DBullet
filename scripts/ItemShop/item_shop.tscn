@@ -123,4 +123,16 @@ margin_bottom = 398.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
+[node name="backButton" type="Button" parent="."]
+margin_left = 723.0
+margin_top = 523.0
+margin_right = 859.0
+margin_bottom = 569.0
+text = "Back"
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [connection signal="pressed" from="GridContainer/x2CoinButton" to="GridContainer/x2CoinButton" method="_on_x2CoinButton_pressed"]
+[connection signal="pressed" from="backButton" to="GridContainer/x2CoinButton" method="_on_backButton_pressed"]
