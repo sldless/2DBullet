@@ -14,6 +14,10 @@ config/name="2DBullet"
 run/main_scene="res://scripts/Menu/Menu.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+Global="*res://scripts/Autoload/Global.gd"
+
 [display]
 
 window/size/resizable=false
