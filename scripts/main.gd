@@ -14,7 +14,7 @@ func _ready():
 		get_node(".").add_child(ensc)
 		var nop = get_node("Circle_" + str(i))
 		nop.get_node("CollisionShape2D").shape.set_radius(nop.enemy.size)
-		if i % 4 == 0:
+		if i % 6 == 0:
 			nop.enemy.color = Color.aqua
 			nop.enemy.deadly = true 
 func _on_RespawnTimer_timeout():
