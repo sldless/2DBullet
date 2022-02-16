@@ -7,7 +7,7 @@ var enemy
 
 func _ready():
 	var enssc = preload('res://scripts/enemy.tscn')
-	for i in 200:
+	for i in 80:
 		randomize()
 		var ensc = enssc.instance()
 		ensc.set_name("Circle_"+ str(i))
