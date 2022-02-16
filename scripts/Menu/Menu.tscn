@@ -127,7 +127,7 @@ custom_styles/normal = SubResource( 5 )
 text = "PLAY"
 script = ExtResource( 1 )
 
-[node name="icButton" type="Button" parent="VBoxContainer"]
+[node name="ShopButton" type="Button" parent="VBoxContainer"]
 margin_top = 58.0
 margin_right = 226.0
 margin_bottom = 110.0
@@ -160,6 +160,6 @@ text = "Quit"
 script = ExtResource( 1 )
 
 [connection signal="pressed" from="VBoxContainer/PlayButton" to="VBoxContainer/PlayButton" method="_on_PlayButton_pressed"]
-[connection signal="pressed" from="VBoxContainer/icButton" to="VBoxContainer/PlayButton" method="_on_icButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/ShopButton" to="VBoxContainer/PlayButton" method="_on_icButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/quitButton" to="VBoxContainer/PlayButton" method="_on_quitButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/quitButton" to="VBoxContainer/PlayButton" method="_on_icButton_pressed"]
