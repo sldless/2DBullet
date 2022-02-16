@@ -7,6 +7,7 @@ var shape
 var deadly : bool = false
 var enemy
 var xp : int = 0
+
 class Enemy:
 	var position = Vector2()
 	var body = RID()
