@@ -44,7 +44,7 @@ func _physics_process(_delta):
 			var level = get_parent().get_node('levelLabel').get_text()
 			Score = int(score) + 1
 			score = Score
-			if (score % 10 == 0): 
+			if (score % 16 == 0): 
 				Level = int(level) + 1
 				level = Level
 				get_parent().get_node("levelLabel").set_text('Level: '+str(Level))
@@ -66,3 +66,4 @@ func mouse_entered():
 
 func mouse_exited():
 	hover = false
+	
