@@ -160,5 +160,5 @@ script = ExtResource( 1 )
 
 [connection signal="pressed" from="VBoxContainer/PlayButton" to="VBoxContainer/PlayButton" method="_on_PlayButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/icButton" to="VBoxContainer/PlayButton" method="_on_icButton_pressed"]
-[connection signal="pressed" from="VBoxContainer/quitButton" to="VBoxContainer/PlayButton" method="_on_quitButton_pressed"]
 [connection signal="pressed" from="VBoxContainer/quitButton" to="VBoxContainer/PlayButton" method="_on_icButton_pressed"]
+[connection signal="pressed" from="VBoxContainer/quitButton" to="VBoxContainer/PlayButton" method="_on_quitButton_pressed"]
