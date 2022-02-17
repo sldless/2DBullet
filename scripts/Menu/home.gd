@@ -3,11 +3,6 @@ extends Button
 
 func _on_PlayButton_pressed() -> void:
 	get_tree().change_scene("res://scripts/Menu/GameMode.tscn")
-	
-
-func _on_icButton_pressed() -> void:
-	get_tree().change_scene("res://scripts/ItemShop/item_shop.tscn")
-	
 
 func _on_quitButton_pressed():
 	get_tree().quit()
@@ -28,3 +23,6 @@ func _on_HardButton_pressed():
 	Global.mode = 'Hard'
 	get_tree().change_scene("res://scripts/main.tscn")
 
+
+func _on_CreditButton_pressed():
+	OS.shell_open("https://github.com/sldless/2DBullet")
