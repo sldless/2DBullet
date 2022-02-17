@@ -3,7 +3,7 @@ extends Node
 
 var highscore : int
 var level : int
-var mode
+var mode : String
 class shop_items:
 	var double_coins : bool
 	var item2 : bool

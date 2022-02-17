@@ -31,7 +31,7 @@ func _ready():
 	position = random_pos
 	enemy.size = rand_range(10, 20)
 	enemy.color = Color(rand_range(0, 1), rand_range(0, 1), rand_range(0, 1))
-	
+
 func _process(_delta):
 	update()
 

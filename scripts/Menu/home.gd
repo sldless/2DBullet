@@ -15,16 +15,16 @@ func _on_quitButton_pressed():
 
 func _on_EasyButton_pressed():
 	Global.mode = 'Easy'
-	get_tree().change_scene("res://scripts/enemy.tscn")
+	get_tree().change_scene("res://scripts/main.tscn")
 	
 
 
 func _on_MeduimButton_pressed():
 	Global.mode = 'Medium'
-	get_tree().change_scene("res://scripts/enemy.tscn")
+	get_tree().change_scene("res://scripts/main.tscn")
 	
 	
 func _on_HardButton_pressed():
 	Global.mode = 'Hard'
-	get_tree().change_scene("res://scripts/enemy.tscn")
+	get_tree().change_scene("res://scripts/main.tscn")
 
